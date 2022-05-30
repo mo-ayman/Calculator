@@ -1,0 +1,44 @@
+<div id = "frame">
+  <div id = "screen" style="font-size: 35px">{{show}}</div>
+  <div id = buttons>
+    <div>
+      <button style="background-image: url('../assets/icons/signs/icons8-percentage-50.png')" class = "control" (click)="inputOperator('%')" ></button>
+      <button style="background-image: url('../assets/icons/signs/ce4.png')" class = "control" (click)="inputOperator('c')"></button>
+      <button style="background-image: url('../assets/icons/signs/c.png')" class = "control" (click)="inputOperator('c')"></button>
+      <button style="background-image: url('../assets/icons/signs/icons8-clear-symbol-50.png')" class = "control" (click)="inputOperand('delete')"></button>
+    </div>
+    <div>
+      <button style="background-image: url('../assets/icons/signs/1x2.png')" class = "control" (click)="inputOperator('1/x')"></button>
+      <button style="background-image: url('../assets/icons/signs/icons8-square-number-50.png')" class = "control" (click)="inputOperator('squared')"></button>
+      <button style="background-image: url('../assets/icons/signs/icons8-square-root-50.png')" class = "control" (click)="inputOperator('root')"></button>
+      <button style="background-image: url('../assets/icons/signs/icons8-divide-50.png')" class = "control" (click)="inputOperator('/')"></button>
+    </div>
+    <div>
+      <button style="background-image: url('../assets/icons/number/seven.png')" class = "operand" (click)="inputOperand('7')"></button>
+      <button style="background-image: url('../assets/icons/number/eight.png')" class = "operand" (click)="inputOperand('8')"></button>
+      <button style="background-image: url('../assets/icons/number/nine.png')" class = "operand" (click)="inputOperand('9')"></button>
+      <button style="background-image: url('../assets/icons/signs/icons8-multiply-50.png')" class = "control" (click)="inputOperator('*')"></button>
+    </div>
+    <div>
+      <button style="background-image: url('../assets/icons/number/four.png')" class = "operand" (click)="inputOperand('4')"></button>
+      <button style="background-image: url('../assets/icons/number/five.png')" class = "operand" (click)="inputOperand('5')"></button>
+      <button style="background-image: url('../assets/icons/number/six.png')" class = "operand" (click)="inputOperand('6')"></button>
+      <button style="background-image: url('../assets/icons/signs/icons8-subtract-50.png')" class = "control" (click)="inputOperator('-')"></button>
+    </div>
+    <div>
+      <button style="background-image: url('../assets/icons/number/one.png')" class = "operand" (click)="inputOperand('1')"></button>
+      <button style="background-image: url('../assets/icons/number/two.png')" class = "operand" (click)="inputOperand('2')"></button>
+      <button style="background-image: url('../assets/icons/number/three.png')" class = "operand" (click)="inputOperand('3')"></button>
+      <button style="background-image: url('../assets/icons/signs/icons8-plus-math-50.png')" class = "control" (click)="inputOperator('+')"></button>
+    </div>
+    <div>
+      <button style="background-image: url('../assets/icons/number/plusOrMinus.png')" class = "operand" (click)="inputOperand('-')"></button>
+      <button style="background-image: url('../assets/icons/number/zero.png')" class = "operand" (click)="inputOperand('0')"></button>
+      <button style="background-image: url('../assets/icons/number/black-circle.png'); background-size: 7px" class = "operand" (click)="inputOperand('.')"></button>
+      <button style="background-image: url('../assets/icons/signs/icons8-equal-sign-50.png')" class = "control" (click)="inputOperator('=')"></button>
+    </div>
+
+
+  </div>
+
+</div>

@@ -1,0 +1,35 @@
+
+#frame {
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  width: 400px;
+  height: 533px;
+  background-color: #e6e6e6;
+}
+
+#screen {
+  width: 100%;
+  height: 25%;
+
+}
+
+#buttons {
+  width: 99%;
+  height: 75%;
+  position: relative;
+  bottom: 2%;
+  left: 3px;
+}
+
+.control {
+  background: #f0f0f0 no-repeat center;
+  background-size: 30%;
+}
+
+.operand {
+  background: #fafafa no-repeat center;
+  background-size: 21%;
+}
+
+
