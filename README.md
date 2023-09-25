@@ -1,4 +1,12 @@
-# Calculator Web Application
+<h1 align="center">Calculator Web Application</h1>
+
+<p align="center">
+    <img src="assets/calculator.png" alt="Calculator image">
+</p>
+
+
+
+## About
 
 This is a calculator web application that allows users to perform basic mathematical operations such as addition, subtraction, multiplication, and division.
 
