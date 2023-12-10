@@ -19,7 +19,6 @@ The Calculator web application is built using the following technologies:
 - HTML: The standard markup language used for creating web pages.
 - CSS: A style sheet language used for describing the presentation of a document written in HTML.
 - TypeScript: A superset of JavaScript that adds optional static typing to the language.
-- Bootstrap: A popular front-end framework used for building responsive and mobile-first websites.
 
 ## Features
 
